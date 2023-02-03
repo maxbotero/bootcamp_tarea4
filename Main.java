@@ -8,14 +8,14 @@ public class Main {
     cliente.edad = 60;
     cliente.nombre = "Pablo";
     cliente.telefono = "3185236458";
-    System.out.println("El cliente se llama " + cliente.nombre + ", su edad es " + cliente.edad + "años " + "y tiene un credito de " + cliente.getCredito() + " dolares");
+    System.out.println("El cliente se llama " + cliente.nombre + ", su edad es " + cliente.edad + " años, tiene un credito de " + cliente.getCredito() + " dolares, y su teléfono es " + cliente.telefono);
 
     Trabajador trabajador = new Trabajador();
     trabajador.setSalario(2000);
     trabajador.edad = 45;
     trabajador.nombre = "perejildo";
     trabajador.telefono = "3203185498";
-    System.out.println("El trabajador de llama " + trabajador.nombre + ", su edad es " + trabajador.edad + " y tiene un salario de " + trabajador.getSalario() + " dolares");
+    System.out.println("El trabajador de llama " + trabajador.nombre + ", su edad es " + trabajador.edad + " años, tiene un salario de " + trabajador.getSalario() + " dolares, y su teléfono es " + trabajador.telefono);
     }
 
 }
